@@ -41,8 +41,7 @@ body {
     list-style: none;
 }
 
-.btn,
-.task {
+.btn, .task {
   outline: none;
 }
 .btn {
@@ -138,7 +137,8 @@ label[for="new-task"] {
 /* Edit Task */
 
 
-.edit-mode input[type="text"] {
+.edit-mode 
+input[type="text"] {
   display: inline-block;
   width: 224px;
 }
