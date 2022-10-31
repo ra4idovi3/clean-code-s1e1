@@ -121,8 +121,8 @@ label[for="new-task"] {
 }
 .btn__del img {
   height: 2em;
-  transform:rotateZ(45deg);
-  transition:transform 200ms ease-in
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in
 
 }
 .btn__del img:hover {
