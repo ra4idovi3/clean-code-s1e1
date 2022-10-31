@@ -119,13 +119,13 @@ label[for="new-task"] {
   width: 226px;
   display: none; /*not edit mode*/
 }
-.btn__del img {
+.btn_del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 
 }
-.btn__del img:hover {
+.btn_del img:hover {
   transform: rotateZ(0);
 }
 
@@ -138,11 +138,11 @@ label[for="new-task"] {
 /* Edit Task */
 
 
-.edit-mode input[type="text"] {
+.task-section__item_edit input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.task-section__item_edit  label {
   display: none;
 }
